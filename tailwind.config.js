@@ -3,10 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'blue': '#00FFDD',
-        'orange': '#ff5b00'
+        blue: '#00FFDD',
+        orange: '#ff5b00',
       }
     },
   },
   plugins: [],
 }
+
+
+// colors: {
+//   
+// },

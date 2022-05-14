@@ -5,7 +5,7 @@ export const Toggle = () => {
     const [visibility, setVisibility] = useState(false)
 
     return (
-        <nav>
+        <nav className='lg overflow-hidden'>
                     {!visibility === true &&
                          <a onClick={() => setVisibility(true)}>
                             <GiHamburgerMenu/>
