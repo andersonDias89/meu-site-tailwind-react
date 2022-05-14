@@ -2,7 +2,8 @@ import MyPhoto from '../../../assets/images/Photo-Anderson-Dias.jpeg'
 
 export const AboutMe = () => {
     return (
-        <div className='w-1/2 h-auto bg-transparent p-10 shadow-2xl'>
+        <div className='w-1/2 '>
+            <div className='h-auto bg-transparent p-10 shadow-2xl'>
             <img className='rounded-full w-36 shadow-2xl mb-4' src={MyPhoto} alt="Foto de Anderson Dias" />
 
             <h2 className='mb-4 text-slate-200 text-5xl'><span className='text-blue'>Quem</span> eu sou?</h2>
@@ -18,6 +19,7 @@ export const AboutMe = () => {
                     Cada dia fico mais entusiasmado
                     por cada conhecimento que venho adquirindo nessa nova trajetória profissional.</p>
             </div>
+        </div>
         </div>
     )
 }

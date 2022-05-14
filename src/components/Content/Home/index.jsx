@@ -6,7 +6,7 @@ import { InfoHome } from './InfoHome'
 export const Home = () => {
     return (
         <section className='w-auto h-[calc(100vh-56px)]' id="home">
-            <div className='w-4/5 m-auto flex'>
+            <div className='w-4/5 m-auto flex lg:flex-col'>
                 <InfoHome />
                 <ImageHome />
             </div>

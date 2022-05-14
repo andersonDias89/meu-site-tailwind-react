@@ -23,8 +23,8 @@ export const Projects = () => {
                     img={ThumbAcademia}
                     alt='Capa do site Academia'
                     description='Desafio proposto por Iuri Silva para desenvolver um web site da empresa Rachi'
-                    linkSite='https://projeto-rachi.web.app'
-                    linkRepo='https://github.com/andersonDias89/rachi-desafio'
+                    linkSite='https://academia-projeto.web.app'
+                    linkRepo='https://github.com/andersonDias89/academia-treino'
                 />
 
                 <ProjectItem
@@ -32,8 +32,8 @@ export const Projects = () => {
                     img={ThumbCurso}
                     alt='Capa da landing page cursos'
                     description='Desafio proposto por Iuri Silva para desenvolver um web site da empresa Rachi'
-                    linkSite='https://projeto-rachi.web.app'
-                    linkRepo='https://github.com/andersonDias89/rachi-desafio'
+                    linkSite='https://curso-dev-projeto.web.app'
+                    linkRepo='https://github.com/andersonDias89/Landing-Page-Dev'
                 />
             </div>
         </section>

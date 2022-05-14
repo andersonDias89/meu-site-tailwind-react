@@ -9,13 +9,13 @@ export const Nav = () => {
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#sobre">Sobre</a>
+                    <a href="#aboutme">Sobre</a>
                 </li>
                 <li>
-                    <a href="#projetos">Projetos</a>
+                    <a href="#projects">Projetos</a>
                 </li>
                 <li>
-                    <a href="#contato">Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
             </ul>
 

@@ -10,13 +10,12 @@ module.exports = {
     },
     screens: {
       "cell": {'max': '1023px'},
-      "desk": {'min': '1024px'}
-    }
+      "desk": {'min': '1024px'},
+      "lg": {'min': '1000'}
+    },
+
   },
   plugins: [],
 }
 
 
-// colors: {
-//   
-// },

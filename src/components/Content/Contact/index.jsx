@@ -10,7 +10,7 @@ export const Contact = () => {
         <section className='w-auto bg-neutral-800 py-32' id="contact">
             <div className='w-4/5 m-auto flex'>
                 <div className='w-1/2 flex items-center justify-center'>
-                    <img className='w-44' src={VetorContato} alt="Imagem ilustrativa de contato" />
+                    <img className='img' src={VetorContato} alt="Imagem ilustrativa de contato" />
                 </div>
 
                 <div className='w-1/2 flex items-center justify-center'>
