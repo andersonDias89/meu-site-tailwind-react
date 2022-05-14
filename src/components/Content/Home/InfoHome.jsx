@@ -10,7 +10,7 @@ export const InfoHome = () => {
             <p className='font-light text-slate-100 text-3xl tracking-wider' >Desenvolvedor Front-end</p>
 
             <div className='flex space-x-3 mt-2'>
-                <ButtonLarge name='Projetos' destiny='#project' />
+                <ButtonLarge name='Projetos' destiny='#projects' />
                 <ButtonMedium name='CV' destiny={Curriculo} />
             </div>
         </div>

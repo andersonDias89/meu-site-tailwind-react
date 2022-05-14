@@ -7,8 +7,8 @@ import ThumbCurso from '../../../assets/images/Thumb-Landing-Page-Cursos.jpeg'
 
 export const Projects = () => {
     return (
-        <section className="w-auto py-36">
-            <div className="w-4/5 m-auto flex flex-wrap justify-between">
+        <section className="w-auto py-36" id="projects">
+            <div className="w-4/5 m-auto flex flex-wrap justify-between space-y-3">
                 <ProjectItem
                     title='Site Rachi'
                     img={ThumbRachi}
