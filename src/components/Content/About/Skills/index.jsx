@@ -8,7 +8,7 @@ export const Skills = () => {
 
 
     return (
-        <div className="w-1/2 space-y-2">
+        <div className="w-11/12 lg:w-1/2 space-y-2">
             <HtmlSkill />
             <CssSkill />
             <JsSkill />

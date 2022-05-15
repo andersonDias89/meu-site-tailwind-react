@@ -24,11 +24,7 @@ html {
     border-radius: 10px;
 }
 
-@layer components {
-    .phone {
-        @apply lg:flex-col
-    }
-}
+
 
 
 

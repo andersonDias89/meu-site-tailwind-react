@@ -11,7 +11,10 @@ module.exports = {
     screens: {
       "cell": {'max': '1023px'},
       "desk": {'min': '1024px'},
-      "lg": {'min': '1000'}
+      "lg": {"min": "1000px"},
+      "md": {"min": "836px"},
+      "sm": {"min": "635px"},
+      "phone": {"min": "446px"}
     },
 
   },

@@ -7,8 +7,8 @@ import ThumbCurso from '../../../assets/images/Thumb-Landing-Page-Cursos.jpeg'
 
 export const Projects = () => {
     return (
-        <section className="w-auto py-36" id="projects">
-            <div className="w-4/5 m-auto flex flex-wrap justify-between space-y-3">
+        <section className="w-auto py-12 phone:py-16" id="projects">
+            <div className="w-11/12 phone:w-4/5 m-auto flex flex-wrap justify-center items-center lg:flex-row lg:space-x-0 lg:justify-between">
                 <ProjectItem
                     title='Site Rachi'
                     img={ThumbRachi}
@@ -22,7 +22,7 @@ export const Projects = () => {
                     title='Site Academia'
                     img={ThumbAcademia}
                     alt='Capa do site Academia'
-                    description='Desafio proposto por Iuri Silva para desenvolver um web site da empresa Rachi'
+                    description='Projeto criado para portfólio.Trata-se de um site para academia divulgando os seus serviços'
                     linkSite='https://academia-projeto.web.app'
                     linkRepo='https://github.com/andersonDias89/academia-treino'
                 />
@@ -31,7 +31,7 @@ export const Projects = () => {
                     title='Landing Page Cursos'
                     img={ThumbCurso}
                     alt='Capa da landing page cursos'
-                    description='Desafio proposto por Iuri Silva para desenvolver um web site da empresa Rachi'
+                    description='Projeto realizado para o meu portfólio. Trata-se de uma landing page de divulgação para cursos de programação.'
                     linkSite='https://curso-dev-projeto.web.app'
                     linkRepo='https://github.com/andersonDias89/Landing-Page-Dev'
                 />

@@ -17,12 +17,12 @@ export const ReactSkill = () => {
     }
 
     return (
-        <div className="w-11/12 flex flex-col justify-center items-center m-auto ">
+        <div className="w-full phone:w-11/12  flex flex-col justify-center items-center m-auto ">
 
             <button onClick={openBoxReact} className="bg-neutral-900 w-full relative p-2 rounded-t-2xl" >
                 <div className="flex items-center space-x-3">
                     <div className="text-5xl text-blue"><FaReact /></div>
-                    <h3 className="text-4xl text-slate-200">React</h3>
+                    <h3 className="text-3xl phone:text-4xl text-slate-200">React</h3>
                 </div>
                 {!reactBox === true &&
                     <a className='text-3xl absolute top-4 right-3 text-orange' onClick={openBoxReact}><BsFillArrowDownCircleFill /></a>

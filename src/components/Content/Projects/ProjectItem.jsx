@@ -1,6 +1,6 @@
 export const ProjectItem = ({ img, alt, title, description, linkSite, linkRepo }) => {
     return (
-        <div className="w-80 h-96 relative bg-neutral-800 rounded-md">
+        <div className="w-72 md:w-80 h-96 md:h- relative bg-neutral-800 rounded-md phone:mx-3 my-3">
             <div className="p-3 ">
                 <img src={img} alt={alt} />
             </div>
